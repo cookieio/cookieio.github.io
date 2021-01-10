@@ -24,6 +24,12 @@ body{
   letter-spacing: 4px;
   font-weight: 100;
 }
+.box h1:hover span{
+  display: none;
+}
+.box h1:hover:after{
+  content:"aka Sathvik Ganti";
+}
 .box h5{
   font-size: 20px;
   letter-spacing: 3px;
