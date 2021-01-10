@@ -30,7 +30,7 @@ body{
   font-weight: 100;
 }
 .box p{
-  text-align: justify;
+  text-align: left;
 }
 ul{
   margin: 0;
