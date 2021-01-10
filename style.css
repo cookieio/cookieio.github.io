@@ -32,6 +32,12 @@ body{
 .box p{
   text-align: justify;
 }
+.box p:hover span{
+  display: none;
+}
+.box p:hover:after{
+  content:"aka Sathvik Ganti";
+}
 ul{
   margin: 0;
   padding: 0;
@@ -49,11 +55,4 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
-}
-
-span#a:hover {
-  display: none;
-}
-span#a:hover:after {
-  content:"aka Sathvik Ganti";
 }
