@@ -50,4 +50,18 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
+span#a {
+  display: inline;
+}
 
+span#a:hover {
+  display: none;
+}
+
+span#b {
+  display: none;
+}
+
+span#b:hover {
+  display: inline;
+}
