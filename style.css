@@ -32,10 +32,10 @@ body{
 .box p{
   text-align: justify;
 }
-.box p:hover span{
+.box h:hover span{
   display: none;
 }
-.box p:hover:after{
+.box h:hover:after{
   content:"aka Sathvik Ganti";
 }
 ul{
